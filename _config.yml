@@ -1,0 +1,17 @@
+# in _config.yml
+title: "MLBook"
+logo: images/logo.png
+author: "Fabricio Barth"
+copyright: "2021"
+
+execute:
+  execute_notebooks: cache
+
+parse:
+  myst_enable_extensions:
+    # don't forget to list any other extensions you want enabled,
+    # including those that are enabled by default!
+    - html_image
+
+bibtex_bibfiles:
+   - references.bib
